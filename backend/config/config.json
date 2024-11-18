@@ -1,0 +1,22 @@
+{
+  "update": {
+    "address": "www.test.com"
+  },
+  "model": {
+    "multimodel": true,
+    "model1": {
+      "name": "customv6.pt",
+      "confidence": 0.9
+    },
+    "model2": {
+      "name": "yolo11n.pt",
+      "confidence": 0.8
+    },
+
+    "frequency": 1000
+  },
+  "server": {
+    "host": "127.0.0.1",
+    "port": 5000
+  }
+}
